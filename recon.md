@@ -1,3 +1,5 @@
+# DNS
+
 - https://crt.sh
 - https://www.shodan.io
 
@@ -21,17 +23,17 @@ https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 
 `site:targetdomain.com -site:www.targetdomain.com`
 
-## Cross Rerence Comapany IP addresses with AWS/Azure lists to identify matches
+# Cross Reference Comapany IP addresses with AWS/Azure lists to identify matches
 
 - https://github.com/oldrho/ip2provider
   - Create a list of IP addresses you want to check one per line
   - `cat iplist.txt | python ip2provider.py`
 
-### AWS Netblocks
+## AWS Netblocks
 
 • https://ip-ranges.amazonaws.com/ip-ranges.json
 
-### Azure Netblocks
+## Azure Netblocks
 
 • Public: https://www.microsoft.com/en-us/download/details.aspx?id=56519
 
