@@ -34,3 +34,13 @@ https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 ### Azure Netblocks
 
 • Public: https://www.microsoft.com/en-us/download/details.aspx?id=56519
+
+## O365 Usage
+
+### Determine if Org uses 1. Password Hash Sync, 2. Pass Through, or 3. ADFS
+
+- https://login.microsoftonline.com/getuserrealm.srf?login=username@acmecomputercompany.com&xml=1
+
+### Get Tenant ID (Supposedly)
+
+- https://login.microsoftonline.com/<target domain>/v2.0/.well-known/openid-configuration
