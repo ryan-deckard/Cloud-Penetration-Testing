@@ -1,9 +1,10 @@
 - https://crt.sh
 - https://www.shodan.io
   Shodan query examples:
-  • org:”Target Name”
-  • net:”CIDR Range”
-  • port:”443”
+
+  - org:”Target Name”
+  - net:”CIDR Range”
+  - port:”443”
 
 - https://search.censys.io/
 
