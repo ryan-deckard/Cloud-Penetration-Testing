@@ -44,3 +44,33 @@ https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 ### Get Tenant ID (Supposedly)
 
 - https://login.microsoftonline.com/<target domain>/v2.0/.well-known/openid-configuration
+
+## S3 Bucket Discovery
+
+- Proxy web app traffic through burp and look for calls to S3
+- Navigate application like you normally would and then check for any requests to: - https://[bucketname].s3.amazonaws.com
+- https://s3-[region].amazonaws.com/[OrgName]
+
+## Box.Com Usage
+
+- https://companyname.account.box.com
+
+## Passwords
+
+- Dehashed
+- HaveIBeenPwned
+
+### Metadata (Find Company docs on the web and look for metadata including info such as subdomains,usernames)
+
+- https://github.com/dafthack/PowerMeta
+- https://github.com/ElevenPaths/FOCA
+
+## User enumeration on Azure can be performed at
+
+- https://login.Microsoft.com/common/oauth2/token
+- https://aadinternals.com/aadinternals/
+
+### External Recon Modules:
+
+- Invoke-AADIntReconAsOutsider
+- Invoke-AADIntUserEnumerationAsOutsider
