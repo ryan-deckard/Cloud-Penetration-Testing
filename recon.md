@@ -23,6 +23,10 @@ https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 
 ## Cross Rerence Comapany IP addresses with AWS/Azure lists to identify matches
 
+- https://github.com/oldrho/ip2provider
+  - Create a list of IP addresses you want to check one per line
+  - `cat iplist.txt | python ip2provider.py`
+
 ### AWS Netblocks
 
 • https://ip-ranges.amazonaws.com/ip-ranges.json
