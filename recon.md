@@ -23,7 +23,7 @@ https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 
 `site:targetdomain.com -site:www.targetdomain.com`
 
-# Cross Reference Comapany IP addresses with AWS/Azure lists to identify matches
+# Comapany IP addresses <--> AWS/Azure
 
 - https://github.com/oldrho/ip2provider
   - Create a list of IP addresses you want to check one per line
@@ -53,11 +53,11 @@ https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 - Navigate application like you normally would and then check for any requests to: - https://[bucketname].s3.amazonaws.com
 - https://s3-[region].amazonaws.com/[OrgName]
 
-## Box.Com Usage
+# Box.Com Usage
 
 - https://companyname.account.box.com
 
-## Passwords
+# Usernames/Passwords
 
 - Dehashed
 - HaveIBeenPwned
