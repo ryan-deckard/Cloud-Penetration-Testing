@@ -67,7 +67,7 @@ https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 - https://github.com/dafthack/PowerMeta
 - https://github.com/ElevenPaths/FOCA
 
-## User enumeration on Azure can be performed at
+### User enumeration on Azure can be performed at
 
 - https://login.Microsoft.com/common/oauth2/token
 - https://aadinternals.com/aadinternals/
