@@ -43,7 +43,7 @@ https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 
 - https://login.microsoftonline.com/getuserrealm.srf?login=username@acmecomputercompany.com&xml=1
 
-### Get Tenant ID (Supposedly)
+### Get Tenant ID
 
 - https://login.microsoftonline.com/<target domain>/v2.0/.well-known/openid-configuration
 

@@ -24,3 +24,10 @@
 ### Cloud Enumeration (A MUST FOR ANY RED TEAM ASSESSMENT)
 
 - https://github.com/initstring/cloud_enum
+
+## Key Discolsure In Public Repositories
+
+- Search through not only current code but also commit history
+  - https://github.com/zricethezav/gitleaks
+  - https://github.com/michenriksen/gitrob
+  - https://github.com/dxa4481/truffleHog
