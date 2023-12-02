@@ -7,6 +7,19 @@
 
 - aws s3 ls s3://<bucketname>/
 
+### Target Discovery
+
+- Domain and subdomain enumeration
+- Certificate analysis
+- Internet-wide portscans
+- MX records
+- Cloud asset identification
+- Employee/User enumeration
+
+### S3 Permissions
+
+- Are buckets available to all resources within AWS
+
 ### Azure Blob storage is for unstructured data
 
 - Containers and blobs can be publicly accessible via access policies
